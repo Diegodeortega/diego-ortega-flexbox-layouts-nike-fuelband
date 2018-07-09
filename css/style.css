@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+p figcaption {
+	font-size: 11px;
+	margin: 0 auto;
+}
+
+
+a:hover {
+	cursor: pointer;
+}
+
+.title {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.contentone {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 25px;
+	padding-right: 0;
+}
+
+.product {
+	width: 46%;
+}
+
+.link {
+	color: red;
+	font-weight: lighter;
+}
+
+.fuelband {
+	width: 50%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	padding-right: 0;
+	margin-left: 30px;
+
+}
+
+
+.fuelband img {
+	width: 100%;
+}
+
+div.fuelband {
+	padding-right: 10px;
+}
+
+div.contenttwo {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/* .contenttwo > * {
+	outline: 1px solid red;
+} */
+
+.items {
+	width: 30%
+	padding: 0 10px;
+	display: flex;
+	justify-content: flex-start;
+	flex: 1;
+}
+
+
+img {
+	 /* border: 1px solid red; */
+	width: 100%;
+	display: block;
+}
+
+.one, .two, .three {
+	width: 270px;
+	height: 150px;
+}
+
+.imagedescription {
+	font-size: 12px;
+}
+
